@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.brys.bydgoszcz.pl/sitemap.xml
+Host: www.brys.bydgoszcz.pl
