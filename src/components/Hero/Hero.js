@@ -8,8 +8,7 @@ export default () =>
   <Section>
     <Subcontainer>
       <Title>
-        Bryś<br/> 
-         Salon dla psa
+        Bryś <br/> Salon dla psa
       </Title>
     </Subcontainer>
     <Subcontainer>
@@ -44,7 +43,7 @@ const Section = styled.section`
   flex-direction: column;
   padding-top: 68px;
   padding-bottom: 20px;
-  background-color: #8FCADE; /*#E4CF80*/
+  background-color: #629A01; /*#E4CF80*/
   box-shadow: 0 2px 3px rgba(0, 0, 0, .12), 0 3px 4px rgba(0, 0, 0, .24);
 `
 

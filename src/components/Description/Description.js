@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default ({html}) => 
-  <Container dangerouslySetInnerHTML={{ __html: html }} />
+export default ({html, color, noShadow}) => 
+  <Container color={color} noShadow={noShadow} dangerouslySetInnerHTML={{ __html: html }} />
 
 
 const Container = styled.div`
-  color: #fff;
+  color: ${({color}) => color ? color : '#fff'};
   font-size: 20px;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  ${({noShadow}) => !noShadow ? 'text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);' : ''}
   width: 500px;
   max-width: 100%;
   margin: 10px;

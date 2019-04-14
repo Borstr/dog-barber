@@ -5,12 +5,12 @@ import "./layout.css"
 
 import Nav from './Nav/Nav'
 import Footer from './Footer/Footer'
+import Socials from './Socials/Socials'
 
-const Layout = ({ children }) =>
+export default ({ children }) =>
   <>
     <Nav />
+    {/* <Socials /> */}
     <main>{children}</main>
     <Footer />
   </>
-
-export default Layout

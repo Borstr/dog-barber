@@ -18,7 +18,7 @@ const Section = styled.section`
   min-height: 100vh;
   width: 100%;
   padding: 68px 16px;
-  background-color: #8FCADE;
+  background-color: #F4E3AD;
 
   @media(max-width: 1000px) {
     padding: 68px 8px;

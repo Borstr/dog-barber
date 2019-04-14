@@ -10,7 +10,7 @@ export default ({ data, image: { src, srcSet, sizes } }) =>
 
   
 const Image = styled.img`
-  border: 3px solid #f9a825;
+  border: 3px solid #FECD05;
   width: 350px;
   max-width: 100%;
   margin: 4px auto;
@@ -25,12 +25,12 @@ const Section = styled.section`
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #E8C268; /*F3D645*/
+  background-color: #629A01; /*F3D645*/
   padding-top: 68px;
 `
 
 const Title = styled.h2`
-  color: #8FCADE;
+  color: #FECD05;
   text-shadow: 0 0 6px rgba(0, 0, 0, .7);
   font-size: 70px;
   margin: 10px;

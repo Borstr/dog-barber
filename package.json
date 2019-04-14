@@ -29,6 +29,7 @@
     "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
+    "dotenv": "7.0.0",
     "prettier": "^1.16.4"
   },
   "keywords": [

@@ -126,7 +126,7 @@ const NavLink = styled(Link)`
 const Nav = styled.nav`
   width: 100vw;
   height: 48px;
-  background-color: #FFC0CB;
+  background-color: #FECD05;
   position: fixed;
   top: 10px;
   left: 0;

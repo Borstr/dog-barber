@@ -1,3 +1,5 @@
+if(process.env.MODE !== 'production') require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     siteUrl: 'http://www.brys.bydgoszcz.pl',

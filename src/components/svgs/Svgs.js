@@ -51,17 +51,15 @@ const BarsSvg = styled.svg`
 `
 
 const SVG = styled.svg`
-  height: 300px;
-  fill: #FFC0CB;
-  /* stroke-opacity: .3;
-  stroke: #000;
-  stroke-width: 1px; */
+  height: 200px;
+  fill: #FECD05;
+
   @media(max-width: 1200px) {
-    height: 200px;
+    height: 150px;
   }
 
   @media(max-width: 900px) {
-    height: 100px;
+    height: 80px;
   }
 
   @media(max-width: 500px) {

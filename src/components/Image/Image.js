@@ -35,7 +35,7 @@ export default ({ data: { fluid }}) => {
 }
 
 const ImageContainer = styled.button`
-  border: 3px solid #FFC0CB;
+  border: 3px solid #99000C;
   border-radius: 3px;
   margin: 8px;
   box-shadow: 0 0 8px rgba(0, 0, 0, .12), 0 0 16px rgba(0, 0, 0, .24);
@@ -47,7 +47,7 @@ const ImageContainer = styled.button`
   @media(min-width: 1000px) {
     &:hover, &:focus {
       transform: scale(1.1);
-      border-color: #E8C268;
+      border-color: #FECD05;
     }
   }
 
@@ -69,7 +69,7 @@ const BigImage = styled.img`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1.5);
-  border: 3px solid #FFC0CB;
+  border: 3px solid #99000C;
   border-radius: 3px;
   margin: 0;
   padding: 0;
