@@ -9,7 +9,7 @@ export default () => {
       <Fb 
         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBRY%25C5%259A-strzy%25C5%25BCenie-ps%25C3%25B3w-125966824427539&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
         width="340" 
-        height="214" 
+        height="210" 
         scrolling="no" 
         frameborder="0" 
         allowTransparency="true" 
@@ -26,11 +26,7 @@ const Fb = styled.iframe`
   border: none;
   overflow: hidden;
   left: 0;
-
-  @media(max-width: 799px) {
-    box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 0 4px rgba(0, 0, 0, .24);
-    padding: 0;
-  }
+  margin: 0;
 `;
 
 const FbLogo = styled.svg`
@@ -72,7 +68,8 @@ const Container = styled.aside`
   }
 
   @media(max-width: 799px) {
-    width: 100%;
     text-align: center;
+    max-height: 210px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 0 4px rgba(0, 0, 0, .24);
   }
 `;

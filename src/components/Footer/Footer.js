@@ -29,6 +29,11 @@ const Footer = styled.footer`
   flex-wrap: wrap;
   color: #fff;
   padding: 8px 0;
+
+  @media(max-width: 799px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 const Subcontainer = styled.section`
