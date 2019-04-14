@@ -16,6 +16,10 @@ const Image = styled.img`
   margin: 4px auto;
   border-radius: 2px;
   box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 0 8px rgba(0, 0, 0, .24);
+
+  @media(max-width: 1000px) {
+    width: 250px;
+  }
 `
 
 const Section = styled.section`

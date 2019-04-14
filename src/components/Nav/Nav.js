@@ -68,7 +68,7 @@ const NavList = styled.ul`
     left: ${({shouldShow}) => shouldShow ? '0' : '-80vw'};
     top: 58px;
     width: 80vw;
-    background-color: #FFC0CB;
+    background-color: #DCAB03;
     flex-direction: column;
     justify-content: flex-start;
     height: calc(100vh - 58px);
@@ -93,7 +93,7 @@ const Item = styled.li`
   @media(max-width: 1000px) {
     height: calc((100vh - 98px) / 4);
     line-height: calc((100vh - 98px) / 4);
-    border-top: 2px solid #dda0a9;
+    border-top: 2px solid #F4E3AD;
     width: 100%;
   }
 `
