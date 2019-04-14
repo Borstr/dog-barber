@@ -3,8 +3,11 @@ import styled from 'styled-components'
 
 import { Link } from 'gatsby'
 
+import Socials from '../Socials/Socials'
+
 export default () => 
   <Footer>
+    <Socials />
     <Subcontainer>
       <Title>Salon</Title>
       <MapLink to='/'>Strona główna</MapLink>
