@@ -15,4 +15,6 @@ Technologies I used in this project are:
 
 For managing content I'm using Contentful.
 
-For hosting the site I'm using Netlify, domain is stored outside of the netlify.
+For hosting the site I'm using Netlify, originally I wanted to use AWS for this, but Netlify was enough for this site.
+
+Domain is stored outside of the netlify.
