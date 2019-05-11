@@ -2,7 +2,7 @@ if(process.env.MODE !== 'production') require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'http://www.brys.bydgoszcz.pl',
+    siteUrl: 'https://www.brys.bydgoszcz.pl',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
