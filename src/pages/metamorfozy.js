@@ -33,7 +33,7 @@ export default () =>
           title='Psie metamorfozy'
           description='Chcesz, żeby Twój pies zmienił się z gąsienicy w pięknego motyla? Zobacz, jak pies może się wspaniale zmienić po kilku godzinach pielęgnacji!'
         />
-        <Gallery data={data.allContentfulMetamorfozy.edges[0].node.metamorfozy} title="Metamorfozy" />
+        <Gallery data={data.allContentfulMetamorfozy.edges[0].node.metamorfozy} maxImages={4} title="Metamorfozy" />
       </Layout>
     }
   />
